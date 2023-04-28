@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #9c9999;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons {
+    position: relative;
+    top: 10px;
+    left: 380px;
+    margin-left: 40px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-weight: 650;
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button_main{
+    background-color: rgb(44, 67, 136);
+    height: 60px;
+}
+
+.card{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.card_image {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    transition: all 6s ease;
+}
+
+.card_image >img{
+    transition: 0.8s ease;
+    width: 300px;
+    height:max-content;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card_header{
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    cursor: pointer;
+}
+
+.card_header:hover{
+    background-color: rgb(44, 67, 136);
+    color: white;
+}
+
+.card_buttons{
+    padding-top:15px;
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.card_button{
+    border-radius: 20px;
+    width: 180px;
+    height: 45px;
+    background-color:rgb(44, 67, 136);
+    color: white;
+    font-weight: 650;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.card_button:hover {
+    background-color: rgb(64, 141, 209);
+    color: white;
+}
+
+.card_icon >img{
+    transition: 0.8s ease;
+    width: 300px;
+    height: 65px;
+    cursor: pointer;
+}
+
+.card_buttons > h5{
+    justify-content: center;
+    position: relative;
+    top: -30px;
+    left: 260px;
+    width: 33px;
+    background-color: red;
+    color: white;
+    border-radius: 70%;
+    cursor: pointer;
+}
+
+.card_image .top{
+    width: 150px;
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: rgb(124, 148, 219);
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
